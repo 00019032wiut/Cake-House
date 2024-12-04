@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+}
+header {
+    background: linear-gradient( to bottom right, #FADADD, #EEEFF1) ;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+}
+
+.container {
+    width: 1110px;
+    text-align: center;
+
+}
+
+.wrapheader {
+    display: flex;
+    justify-content: space-between;
+    height: 10dvh;
+    align-items: center;
+
+    nav {
+
+        
+        a {
+            
+            padding: 15px 20px;
+            text-decoration: none;
+            border: 0px solid #FFE4E1;
+            border-radius: 15px;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            background-color: white;
+            text-decoration: underline;
+        }
+    }
+
+    .nav_pages {
+        a {
+            gap: 50px;
+            padding: 15px 20px;
+            text-decoration: none;
+            border: 0px solid #FFE4E1;
+            border-radius: 15px;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            background-color: white;
+            text-decoration: underline;
+        }
+    }
+}
+
+main {
+    background-color: #E8E8E8;
+    background-image: url(../images/contacts-bgc.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+}
+
+.pic {
+    height: 40dvh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 500;
+    h1 {
+        padding-left: 150px;
+        font-family: "Parkinsans", sans-serif;
+        font-size: 38px;
+    }
+}
+
+.contacts {
+    
+    background: linear-gradient( to top right, #FADADD, #EEEFF1) ;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.main_contacts {
+    height: 50dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter {
+    input {
+        margin: 10px 5px;
+        width: 200px;
+        height: 40px;
+        padding: 10px;
+    }
+    textarea {
+        margin: 10px;
+        padding: 10px;
+        width: 410px;
+        height: 100px;
+    }
+    button {
+        padding: 5px 15px;
+        border: 2px solid black;
+        border-radius: 7px;
+        display: block;
+        margin-left: 180px
+    }
+}
+
+footer {
+    background-color: #FADADD;
+    height: 10dvh;
+    display: flex;
+    justify-content: center;
+    
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    a {
+        margin: 0 20px;
+    
+    }
+    
+
+}

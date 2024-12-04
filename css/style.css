@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+}
+
+.container {
+    width: 1110px;
+    text-align: center;
+    h1, p {
+        padding-top: 30px;
+    }
+
+}
+
+
+header {
+    background: linear-gradient( to top right, #FADADD, #EEEFF1) ;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+}
+
+.wrapheader {
+    display: flex;
+    justify-content: space-between;
+    height: 10dvh;
+    align-items: center;
+
+    nav {
+
+        
+        a {
+            
+            padding: 15px 20px;
+            text-decoration: none;
+            border: 0px solid #FFE4E1;
+            border-radius: 15px;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            background-color: white;
+            text-decoration: underline;
+        }
+    }
+
+    .nav_pages {
+        a {
+            gap: 50px;
+            padding: 15px 20px;
+            text-decoration: none;
+            border: 0px solid #FFE4E1;
+            border-radius: 15px;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            background-color: white;
+            text-decoration: underline;
+        }
+    }
+}
+
+main {
+    background-color: #E8E8E8;
+    background-image: url(../images/main_picture.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+   
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+}
+
+.wrapmain {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    height: 90dvh;
+
+
+    p {
+        font-size: 18px;
+        font-style: italic;
+        padding: 50px 0 0 0;
+        
+        
+    }
+
+    h1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 66px;
+        font-weight: 400;
+        font-family: "Parkinsans", sans-serif;
+    }
+    .ppp {
+        padding-bottom: 100px;
+    }
+}
+
+
+#review {
+    background: linear-gradient( to bottom left, #FADADD, #EEEFF1) ;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+
+}
+
+.wrapreview {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+
+    img {
+        width: 500px;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+
+    .text   {
+        width: 480px;
+
+        h1 {
+            padding-bottom: 40px;
+            font-family: "Parkinsans", sans-serif;
+            font-size: 34px;
+        }
+    }
+}
+
+#why_select_us {
+    background: linear-gradient( to left top, #FADADD, #EEEFF1) ;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+
+    h1 {
+        font-size: 34px;
+        font-family: "Parkinsans", sans-serif;
+        padding-bottom: 20px;
+    }
+}
+
+.wrapselect {
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+ 
+    .card {
+        h2 {
+            padding: 10px 0;
+        }
+    }
+    img {
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        border: 5px solid  black;
+        border-radius: 40px;
+       
+    }
+}
+
+#we_offer {
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+
+    h1 {
+        font-size: 34px;
+        font-family: "Parkinsans", sans-serif;
+    }
+}
+.boxby {
+    height: 500px;
+    display: flex;
+         
+}
+
+
+.wrapgalary {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .galary_txt {
+        text-align: center;
+        width: 500px;
+        
+    }
+
+    .galarycards {
+        width: 350px;
+        height: 150px;
+        background-color: #FAFAFA;
+        border: 2px solid black;
+        border-radius: 30px;
+        margin: 20px;
+    }
+}
+
+footer {
+    background-color: #FADADD;
+    height: 10dvh;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    a {
+        margin: 0 20px;
+    
+    }
+    
+
+}
+
+
